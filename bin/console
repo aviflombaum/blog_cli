@@ -13,4 +13,6 @@ ActiveRecord::Base.logger = Logger.new(STDOUT)
 # Pry.start
 
 require "irb"
-IRB.start
+module BlogCLI
+  IRB.start
+end
